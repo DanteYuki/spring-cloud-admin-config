@@ -4,7 +4,8 @@ mybatis-plus:
 server:
   port: 9201
 ignore:
-  - /auth/oauth/token
+  urls:
+    - /auth/oauth/token
 spring:
   application:
     name: faceworld-auth
