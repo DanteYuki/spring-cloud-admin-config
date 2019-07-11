@@ -2,7 +2,7 @@ mybatis-plus:
   mapper-locations: classpath:mapper/**/*.xml
   type-aliases-package: com.faceworld.spring.cloud.auth
 server:
-  port: 6868
+  port: 9201
   servlet:
     path: /auth
 spring:
