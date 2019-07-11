@@ -18,10 +18,3 @@ spring:
       test-on-borrow: true
       url: jdbc:mysql://47.98.253.106:3306/faceworld_admin?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
       username: root
-security:
-  oauth2:
-    resource:
-      id: faceworld-auth
-      #指定用户信息地址
-      user-info-uri: localhost:9201/auth/oauth/token
-      prefer-token-info: false
