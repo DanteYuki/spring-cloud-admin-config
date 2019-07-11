@@ -3,9 +3,9 @@ mybatis-plus:
   type-aliases-package: com.faceworld.spring.cloud.auth
 server:
   port: 9201
-spring:
   servlet:
     path: /auth
+spring:
   application:
     name: faceworld-auth
   datasource:
